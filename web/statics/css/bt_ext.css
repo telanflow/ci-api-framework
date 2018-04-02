@@ -1,0 +1,9 @@
+.panel-info-ext{
+    -webkit-box-shadow: none;
+     box-shadow: none;
+}
+.panel-info-ext .panel-heading{
+    /*color: #ffffff;*/
+    /*background-color: #b0ddea;*/
+    border-color: #dddddd;
+}

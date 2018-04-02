@@ -1,0 +1,149 @@
+input{
+    outline:none;
+}
+body{
+    font-family: 'Microsoft YaHei','Open Sans','Droid Sans',Tahoma,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.54;
+    color: #455a64;
+}
+
+.header-bar{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 400px;
+    width: 100%;
+    position: relative;
+    background: #444;
+    color: white;
+    margin: 0;
+    overflow: hidden;
+    display: table;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.header-bar .btn-list{
+    float: right;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.header-bar .btn-list ul{
+    display: inline;
+    list-style: none;
+    font-size: 16px;
+    padding: 0;
+}
+
+.header-bar .btn-list li{
+    float: left;
+    margin-right: 20px;
+}
+.header-bar .btn-list li>a{
+    width: 100%;
+    font-size: 16px;
+    color: #FFF;
+}
+.header-bar .btn-list li>a:hover{
+    color: #428bca;
+}
+
+.header-top{
+    display: table-cell;
+    font-size: 30px;
+    padding-left: 10px;
+    line-height: 45px;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.panel-left{
+    border-right: 1px solid #eee;
+}
+
+.nav-list{
+    display: inline;
+    list-style: none;
+    font-size: 16px;
+    padding: 0;
+}
+.nav-list li{
+    height: 30px;
+    line-height: 30px;
+    border-left: 5px solid #fff;
+}
+.nav-list li:hover{
+    background-color: #eee;
+}
+.nav-list .active{
+    border-left: 5px solid #dd4b39;
+}
+.nav-list .active>a{
+    color: #dd4b39;
+}
+
+.nav-list a{
+    text-decoration: none;
+    display: inline-block;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    width: 100%;
+    color: #333;
+    padding-left: 15px;
+    font-size: 14px;
+}
+.nav-list a>i{
+    margin-right: 10px;
+}
+.nav-list .no-version>a{
+    opacity: 0.7;
+}
+.nav-list .version>a{
+    /*color: #2286dc;*/
+}
+
+.api-header{
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0 5px 0;
+    margin-bottom: 10px;
+}
+.breadcrumb{
+    border: 0 solid #dddddd;
+}
+
+.api-section{
+
+}
+.api-section dl dt{
+    max-width: 110px;
+}
+.api-section dl dd{
+    margin-left: 150px;
+}
+
+.nav-log{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.log-time{
+    display: inline;
+    font-size: 14px;
+    margin-right: 6px;
+}
+.log-desc{
+    font-size: 14px;
+}
+
+.navbar-api{
+    position: relative;
+    right: 15px;
+}
